@@ -1,0 +1,30 @@
+ &INDATA
+ SYSTEM      =  droplet    !channel, droplet, bulk, cylinder
+ Stype       =  xx         !xx(plannar), xy, xz, zz(hometropic) 
+ ANCHOR      =  inf        ! inf;  nond; deg
+ BOX         =  40 , 40 , 40,
+ DIME        =  41 , 41 , 41,
+ NPTYPE      =  zz         !xx(plannar), zz(hometropic) inner cylinder is the nanopart
+ NPANCHOR    =  inf        ! inf;  nond; deg
+ RADIUS      =  15 ,
+ NUMBER_NP   =  0 ,
+ LHAT        =  1.d0, 0. , 0. , 0.  ,
+ GAMA        =  1.2 , 1.2, 10
+ ULDG        =  5 ,
+ DMC         =  0.01, 0.01,  100000  
+ DT          =  0.010, 0.1,  20000
+ DIRECTION   =  0,
+ ACCURACY    =  1.d-5, 1.d-10      !percent, the second is GL
+ TEMP        =  1.d-4, 1.d-20, 100000
+ ISEED       =  35 574 3
+ SAMPLE      =  100  
+ TRAJ        =  10000, 1    ! frequency of traj; 0 only master, 1 all cpu
+ METHOD      =  2          ! 1 mc ; 2 GL ; 3 mc-GL
+ SYCLE       =  1
+ Itype       =  6         ! 1 random; 2 uniform; 3 all random; 4 rings; 5 radial; 6 DSS; 7 RSS
+ RESTART     =  0         ! 0 start; 1 continue  
+ BETA        =  1
+ NPmove      =  10
+ WN          =  2        !winding number
+ /
+
