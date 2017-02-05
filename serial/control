@@ -1,0 +1,14 @@
+box    =     41, 41, 41
+dis    =     1.,  1.,  1.
+UldG   =     3
+Init   =     BI2  !rand,Unix,Uniy,Uniz
+dt     =     0.01
+dF     =     0.01
+#Chiral parameters
+pitch  =     41
+red    =     0.68
+#output parameter
+Fsam   =     100
+#For vtk file: ord bia dir
+vtk    =     ord 
+trj    =     
